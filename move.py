@@ -36,7 +36,7 @@ class MOVE:
 			pan_servo.angle(80)
 			tilt_servo.angle(100)
 			flag = 0
-
+		return flag
 	def move_coiled(flag, pan_servo, tilt_servo,i,j):  # 按连续范围扫描方式
 		if flag == 0:
 			pan_servo.angle(j)
